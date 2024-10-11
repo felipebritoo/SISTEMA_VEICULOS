@@ -24,4 +24,8 @@ class Bicicleta extends Veiculo {
                 "INSERT INTO Bicicleta (modelo, anoFabricacao, marca, cor, kilometragem, material, qtdMarchas, amortecedor, passageiros) VALUES ('%s', %d, '%s', '%s', %.2f, '%s', %d, %b);",
                 getModelo(), getAnoFabricacao(), marca, getCor(), getKilometragem(), material, qtdMarchas, amortecedor,qtdPassageiros);
     }
+
+    public String getMarca(){
+        return this.marca;
+    }
 }

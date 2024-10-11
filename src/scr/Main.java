@@ -16,11 +16,11 @@ public class Main {
         System.out.println("Modelo: " + caminhao.getModelo() + " Ano:" + caminhao.getAnoFabricacao() + " Montadora: "
                 + caminhao.getMontadora() + " Cor: " + caminhao.getCor() + " KM: " + caminhao.getKilometragem());// Caminhao
 
-        System.out.println("Modelo: " + bicicleta.getModelo() + " Ano:" + bicicleta.getAnoFabricacao() + " Montadora: "
-                + bicicleta.getMontadora() + " Cor: " + bicicleta.getCor() + " KM: " + bicicleta.getKilometragem());// bicicleta
+        System.out.println("Modelo: " + bicicleta.getModelo() + " Ano:" + bicicleta.getAnoFabricacao() + " Marca: "
+                + bicicleta.getMarca() + " Cor: " + bicicleta.getCor() + " KM: " + bicicleta.getKilometragem());// bicicleta
 
-        System.out.println("Modelo: " + skate.getModelo() + " Ano:" + skate.getAnoFabricacao() + " Montadora: "
-                + skate.getMontadora() + " Cor: " + skate.getCor() + " KM: " + skate.getKilometragem()); // skate
+        System.out.println("Modelo: " + skate.getModelo() + " Ano:" + skate.getAnoFabricacao() + " Marca: "
+                + skate.getMarca() + " Cor: " + skate.getCor() + " KM: " + skate.getKilometragem()); // skate
 
     }
 }

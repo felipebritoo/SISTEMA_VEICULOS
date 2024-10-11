@@ -44,6 +44,8 @@ abstract class Veiculo {
 
  public void setMontadora(String montadora) {
      this.montadora = montadora;
+
+     System.out.println("DEBUG: motadora: " + this.montadora);
  }
 
  public String getCor() {
